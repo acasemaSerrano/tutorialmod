@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[33,)"
+license="All rights reserved"
+issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]]
+modId="tutorialmod"
+version="0.1"
+displayName="Tutorial Mod"
+updateJSONURL="http://myurl.me/"
+displayURL="http://example.com/"
+logoFile="examplemod.png"
+credits="My"
+authors="acasema"
+description='''
+ hi!!
+'''
+
+[[dependencies.tutorialmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[33,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tutorialmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.2]"
+    ordering="NONE"
+    side="BOTH"
